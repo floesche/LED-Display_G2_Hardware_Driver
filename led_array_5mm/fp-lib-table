@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name led_array_5mm)(type KiCad)(uri ${KIPRJMOD}/led_array_5mm.pretty)(options "")(descr "local footprint library"))
+)
