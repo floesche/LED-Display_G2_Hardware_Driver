@@ -1,4 +1,4 @@
-update=Thu 11 Nov 2021 12:54:54 PM EST
+update=Thu 11 Nov 2021 03:16:24 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=100
-LastNetListRead=led_array.net
+LastNetListRead=led_array_th5mm.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -49,3 +49,13 @@ LibName14=PIN_ARRAY-8X1
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

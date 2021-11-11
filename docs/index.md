@@ -19,6 +19,18 @@ Historic production ready files are archived at `led_array_th3mm/production_v1/`
 
 The folder `led_array_th3mm/objects/` contains a vector graphic file, presumably used to laser cut a spacer to be used on top of the PCB (see [preview pdf](assets/led_array_th3mm_spacer.pdf)).
 
+## LED array TH 5mm
+{:.clear}
+
+![LED array through hole 5mm](assets/led_array_th5mm_front.png){:.ifr .pop}
+![LED array through hole 5mm](assets/led_array_th5mm_back.png){:.ifr .pop .clear}
+
+The LED array TH 3mm is a LED matrix for through hole (TH) 5mm LEDs (have a [look at the schematics](assets/led_array_th5mm_schematic.pdf)). LEDs from many different manufacturers are available in this packages size. Because of the size constraints, only 4×4 LEDs fit on one of these matrices.
+
+Historic production ready files are archived at `led_array_th5mm/production_v1/`, yet it is unclear if there was ever a PCB produced.
+
+The folder `led_array_th5mm/objects/` contains different vector graphic file, presumably used to laser cut masks for the LEDs (see [preview pdf](assets/mask_inner_5mm.pdf)).
+
 ## LED array SMD 0805
 {:.clear}
 
