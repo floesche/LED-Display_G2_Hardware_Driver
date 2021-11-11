@@ -25,7 +25,7 @@ Historic production ready files are archived at `led_array_smd0805/production_v1
 
 The LED array SMD 1411-0805 is a LED matrix for surface mount devices with alternating between packages size of 1411 and 0805 (have a [look at the schematics](assets/led_array_smd1411-0805_schematic.pdf)). This LED matrix was designer to use UV and green LEDs in the same matrix. The chosen UV LED by Yuli Tech with a spectrum peak at 365nm and product number __YLUV-365SMD__ has a SMD 1411 package size. There is a wide range of green LEDs in an 0805 package available, such as the Rohm __SML-210MTT86__ with a spectrum peak at 570nm.
 
-Historic production ready files are archived at `led_array_smd0805/production_v0`
+Historic production ready files are archived at `led_array_smd0805/production_v0`. The most recently produced version was `led_array_smd1411-0805_v0p2.zip`.
 
 ## Project content
 {:.clear}
