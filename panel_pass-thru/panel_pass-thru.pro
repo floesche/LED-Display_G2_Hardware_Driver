@@ -29,7 +29,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=pass_thru_panel.net
+LastNetListRead=panel_pass-thru.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

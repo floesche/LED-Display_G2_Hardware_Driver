@@ -7,6 +7,9 @@ parent: Generation 2
 
 Different pre-fabricated LED matrices are available, but their emitted light spectrum is not always well specified, might differ between production batches, and don't always align well with the sensitivity of a drosophila visual system. Around 2013 there was an effort to produce custom LED matrices for [Generation 2]({{site.baseurl}}/Generation%202/Arenas/docs/g2_system.html) and [Generation 3]({{site.baseurl}}/Generation%203/) display systems. The different versions listed below are plug-in replacements for pre-fabricated LED matrices and designed to be used with the [panel boards]({{site.baseurl}}/Generation%202/Panels/docs/).
 
+1. TOC
+{:toc}
+
 ## LED array TH 3mm
 {:.clear}
 
@@ -64,26 +67,10 @@ The project folder `led_array_template` contains a 8×8 schematic that can be us
 
 The `panel_adaptor` is a small PCB that allows an adaptation between different matrix sized and the [panel board]({{site.baseurl}}/Generation%202/Panels/docs/).
 
-## Project content
+## Panel pass-thru
 {:.clear}
 
-```sh
-├── led_array_3mm
-│   └── gerber_v0p1
-├── led_array_3mm_spacer
-├── led_array_5mm
-│   └── gerber_v0p1
-├── led_array_5mm_adaptor
-│   └── gerber_v0p1
-├── led_array_5mm_mask
-│   ├── arrayed
-│   └── single
-├── led_array_8x8_template
-├── led_array_mixed
-│   ├── gerber_v0p1
-│   └── gerber_v0p2
-├── led_array_sm0805
-│   └── gerber_v0p1
-└── pass_thru_panel
-    └── gerber_v1p0
-```
+![Panel pass-thru Front](assets/panel_pass-thru_front.png){:.ifr .pop}
+![Panel pass-thru Back](assets/panel_pass-thru_back.png){:.ifr .pop .clear}
+
+The `panel_pass-thru` is a drop in replacement for a single display module. It carries the electrical signal to the next module, but does not display anything. This is similar to the [Generation 4 Window]({{site.baseurl}}/Generation%204/Hardware/docs/comm.html#window), but without the cutout in the center.

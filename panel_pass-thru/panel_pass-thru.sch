@@ -30,7 +30,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1850 2950 1850
 $Comp
-L pass_thru_panel:CONN_8 P1
+L panel_pass-thru:CONN_8 P1
 U 1 1 512E7147
 P 1700 1600
 F 0 "P1" V 1650 1600 60  0000 C CNN
@@ -41,7 +41,7 @@ F 3 "" H 1700 1600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pass_thru_panel:CONN_8 P2
+L panel_pass-thru:CONN_8 P2
 U 1 1 512E7142
 P 3300 1600
 F 0 "P2" V 3250 1600 60  0000 C CNN
