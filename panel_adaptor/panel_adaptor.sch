@@ -46,7 +46,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5550 3150
 $Comp
-L led_array_adaptor:CONN_8 P4
+L panel_adaptor:CONN_8 P4
 U 1 1 511AC605
 P 5900 2900
 F 0 "P4" V 5850 2900 60  0000 C CNN
@@ -57,7 +57,7 @@ F 3 "" H 5900 2900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L led_array_adaptor:CONN_8 P3
+L panel_adaptor:CONN_8 P3
 U 1 1 511AC602
 P 4650 2900
 F 0 "P3" V 4600 2900 60  0000 C CNN
@@ -68,7 +68,7 @@ F 3 "" H 4650 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L led_array_adaptor:CONN_8 P1
+L panel_adaptor:CONN_8 P1
 U 1 1 511AC5FF
 P 4650 1550
 F 0 "P1" V 4600 1550 60  0000 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 4650 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L led_array_adaptor:CONN_8 P2
+L panel_adaptor:CONN_8 P2
 U 1 1 511AC5FC
 P 5900 1550
 F 0 "P2" V 5850 1550 60  0000 C CNN

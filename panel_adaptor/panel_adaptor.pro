@@ -29,7 +29,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=led_array_adaptor.net
+LastNetListRead=panel_adaptor.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

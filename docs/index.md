@@ -56,6 +56,14 @@ Historic production ready files are archived at `led_array_smd0805/production_v0
 
 The project folder `led_array_template` contains a 8×8 schematic that can be used as a template to produce different types of PCBs.
 
+## Panel Adaptor
+{:.clear}
+
+![Panel Adaptor Front](assets/panel_adaptor_front.png){:.ifr .pop}
+![Panel Adaptor Back](assets/panel_adaptor_back.png){:.ifr .pop .clear}
+
+The `panel_adaptor` is a small PCB that allows an adaptation between different matrix sized and the [panel board]({{site.baseurl}}/Generation%202/Panels/docs/).
+
 ## Project content
 {:.clear}
 
