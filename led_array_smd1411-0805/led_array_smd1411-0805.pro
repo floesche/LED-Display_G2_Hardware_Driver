@@ -1,4 +1,4 @@
-update=Thu 11 Nov 2021 01:26:07 PM EST
+update=Thu 11 Nov 2021 02:44:31 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -15,7 +15,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-LastNetListRead=led_array.net
+LastNetListRead=led_array_smd1411-0805.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
@@ -51,3 +51,13 @@ LibName14=LED0805_CUSTOM
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

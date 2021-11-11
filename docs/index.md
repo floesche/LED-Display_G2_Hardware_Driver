@@ -13,9 +13,19 @@ Different pre-fabricated LED matrices are available, but their emitted light spe
 ![LED array SMD 0805](assets/led_array_smd0805_front.png){:.ifr .pop}
 ![LED array SMD 0805](assets/led_array_smd0805_back.png){:.ifr .pop .clear}
 
-The LED array SMD 0805 is a LED matrix for surface mount devices with a package size of 0805 (have a [look at the schematics](assets/led_array_smd0805.pdf)). LEDs from many different manufacturers are available in this packages size.
+The LED array SMD 0805 is a LED matrix for surface mount devices with a package size of 0805 (have a [look at the schematics](assets/led_array_smd0805_schematic.pdf)). LEDs from many different manufacturers are available in this packages size.
 
-Historic production ready files are archived at `led_array_smd0805/production_v1/led_array_smd0805_v1p0.zip`, yet it is unclear if there was ever a PCB produced.
+Historic production ready files are archived at `led_array_smd0805/production_v1/`, yet it is unclear if there was ever a PCB produced.
+
+## LED array SMD 1411-0805
+{:.clear}
+
+![LED array SMD 1411-0805](assets/led_array_smd1411-0805_front.png){:.ifr .pop}
+![LED array SMD 1411-0805](assets/led_array_smd1411-0805_back.png){:.ifr .pop .clear}
+
+The LED array SMD 1411-0805 is a LED matrix for surface mount devices with alternating between packages size of 1411 and 0805 (have a [look at the schematics](assets/led_array_smd1411-0805_schematic.pdf)). This LED matrix was designer to use UV and green LEDs in the same matrix. The chosen UV LED by Yuli Tech with a spectrum peak at 365nm and product number __YLUV-365SMD__ has a SMD 1411 package size. There is a wide range of green LEDs in an 0805 package available, such as the Rohm __SML-210MTT86__ with a spectrum peak at 570nm.
+
+Historic production ready files are archived at `led_array_smd0805/production_v0`
 
 ## Project content
 {:.clear}
