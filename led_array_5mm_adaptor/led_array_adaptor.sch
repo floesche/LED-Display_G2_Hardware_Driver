@@ -1,38 +1,7 @@
-EESchema Schematic File Version 2  date Tue 12 Feb 2013 03:11:09 PM PST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:led_array_adaptor-cache
-EELAYER 25  0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -77,38 +46,46 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5550 3150
 $Comp
-L CONN_8 P4
+L led_array_adaptor:CONN_8 P4
 U 1 1 511AC605
 P 5900 2900
 F 0 "P4" V 5850 2900 60  0000 C CNN
 F 1 "CONN_8" V 5950 2900 60  0000 C CNN
+F 2 "" H 5900 2900 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
 	1    5900 2900
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_8 P3
+L led_array_adaptor:CONN_8 P3
 U 1 1 511AC602
 P 4650 2900
 F 0 "P3" V 4600 2900 60  0000 C CNN
 F 1 "CONN_8" V 4700 2900 60  0000 C CNN
+F 2 "" H 4650 2900 50  0001 C CNN
+F 3 "" H 4650 2900 50  0001 C CNN
 	1    4650 2900
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_8 P1
+L led_array_adaptor:CONN_8 P1
 U 1 1 511AC5FF
 P 4650 1550
 F 0 "P1" V 4600 1550 60  0000 C CNN
 F 1 "CONN_8" V 4700 1550 60  0000 C CNN
+F 2 "" H 4650 1550 50  0001 C CNN
+F 3 "" H 4650 1550 50  0001 C CNN
 	1    4650 1550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P2
+L led_array_adaptor:CONN_8 P2
 U 1 1 511AC5FC
 P 5900 1550
 F 0 "P2" V 5850 1550 60  0000 C CNN
 F 1 "CONN_8" V 5950 1550 60  0000 C CNN
+F 2 "" H 5900 1550 50  0001 C CNN
+F 3 "" H 5900 1550 50  0001 C CNN
 	1    5900 1550
 	1    0    0    -1  
 $EndComp
