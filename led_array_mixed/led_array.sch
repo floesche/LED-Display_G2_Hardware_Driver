@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:led_array-cache
-EELAYER 24 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,7 +49,7 @@ Connection ~ 6700 6800
 Wire Wire Line
 	7300 6700 7300 6800
 Wire Wire Line
-	7300 6800 2750 6800
+	7300 6800 6700 6800
 Connection ~ 5500 6800
 Wire Wire Line
 	6100 6800 6100 6700
@@ -94,7 +63,7 @@ Connection ~ 6700 6100
 Wire Wire Line
 	7300 6000 7300 6100
 Wire Wire Line
-	7300 6100 2750 6100
+	7300 6100 6700 6100
 Connection ~ 5500 6100
 Connection ~ 4900 6100
 Wire Wire Line
@@ -118,7 +87,7 @@ Connection ~ 6700 4700
 Wire Wire Line
 	7300 4600 7300 4700
 Wire Wire Line
-	7300 4700 2750 4700
+	7300 4700 6700 4700
 Connection ~ 5500 4700
 Wire Wire Line
 	6100 4700 6100 4600
@@ -153,7 +122,7 @@ Connection ~ 6750 2600
 Wire Wire Line
 	7350 2500 7350 2600
 Wire Wire Line
-	7350 2600 2750 2600
+	7350 2600 6750 2600
 Connection ~ 5550 2600
 Wire Wire Line
 	6150 2600 6150 2500
@@ -199,7 +168,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 6200 7050 6200
 Wire Wire Line
-	7050 6200 7050 1000
+	7050 6200 7050 5500
 Connection ~ 7050 4100
 Wire Wire Line
 	6700 4900 6700 4800
@@ -221,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 6200 6450 6200
 Wire Wire Line
-	6450 6200 6450 1000
+	6450 6200 6450 5500
 Connection ~ 6450 4100
 Wire Wire Line
 	6100 4900 6100 4800
@@ -243,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 6200 5850 6200
 Wire Wire Line
-	5850 6200 5850 1000
+	5850 6200 5850 5500
 Connection ~ 5850 4100
 Wire Wire Line
 	5500 4900 5500 4800
@@ -265,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 6200 5250 6200
 Wire Wire Line
-	5250 6200 5250 1000
+	5250 6200 5250 5500
 Connection ~ 5250 4100
 Wire Wire Line
 	4900 4900 4900 4800
@@ -305,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 6200 4050 6200
 Wire Wire Line
-	4050 6200 4050 1000
+	4050 6200 4050 5500
 Connection ~ 4050 4100
 Wire Wire Line
 	3700 4900 3700 4800
@@ -322,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2000 4050 2000
 Wire Wire Line
-	3450 1000 3450 6200
+	3450 1000 3450 1300
 Connection ~ 3450 4800
 Wire Wire Line
 	3100 5600 3100 5500
@@ -429,7 +398,7 @@ Wire Wire Line
 	4300 4800 4300 4900
 Connection ~ 4650 4100
 Wire Wire Line
-	4650 1000 4650 6200
+	4650 1000 4650 1300
 Wire Wire Line
 	4650 6200 4300 6200
 Wire Wire Line
@@ -528,7 +497,7 @@ Wire Wire Line
 	7300 4800 7300 4900
 Connection ~ 7650 4100
 Wire Wire Line
-	7650 1000 7650 6200
+	7650 1000 7650 1300
 Wire Wire Line
 	7650 6200 7300 6200
 Wire Wire Line
@@ -546,7 +515,7 @@ Connection ~ 3150 1900
 Connection ~ 4350 1900
 Connection ~ 5550 1900
 Wire Wire Line
-	7350 1900 2750 1900
+	7350 1900 6750 1900
 Connection ~ 6750 1900
 Wire Wire Line
 	3150 2600 3150 2500
@@ -569,7 +538,7 @@ Wire Wire Line
 	6150 3300 6150 3200
 Connection ~ 5550 3300
 Wire Wire Line
-	2750 3300 7350 3300
+	2750 3300 3150 3300
 Wire Wire Line
 	7350 3300 7350 3200
 Connection ~ 6750 3300
@@ -584,7 +553,7 @@ Wire Wire Line
 	6150 4000 6150 3900
 Connection ~ 5550 4000
 Wire Wire Line
-	2750 4000 7350 4000
+	2750 4000 3150 4000
 Wire Wire Line
 	7350 4000 7350 3900
 Connection ~ 6750 4000
@@ -610,7 +579,7 @@ Wire Wire Line
 	6100 5400 6100 5300
 Connection ~ 5500 5400
 Wire Wire Line
-	2750 5400 7300 5400
+	2750 5400 3100 5400
 Wire Wire Line
 	7300 5400 7300 5300
 Connection ~ 6700 5400
@@ -637,7 +606,7 @@ Wire Wire Line
 	6700 6800 6700 6700
 Connection ~ 6100 6800
 $Comp
-L LED D33
+L led_array:LED D33
 U 1 1 511840B2
 P 3100 4400
 F 0 "D33" H 3100 4500 50  0000 C CNN
@@ -648,7 +617,7 @@ F 3 "" H 3100 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D34
+L led_array:LED D34
 U 1 1 511840B1
 P 3700 4400
 F 0 "D34" H 3700 4500 50  0000 C CNN
@@ -659,7 +628,7 @@ F 3 "" H 3700 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D36
+L led_array:LED D36
 U 1 1 511840B0
 P 4900 4400
 F 0 "D36" H 4900 4500 50  0000 C CNN
@@ -670,7 +639,7 @@ F 3 "" H 4900 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D35
+L led_array:LED D35
 U 1 1 511840AF
 P 4300 4400
 F 0 "D35" H 4300 4500 50  0000 C CNN
@@ -681,7 +650,7 @@ F 3 "" H 4300 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D39
+L led_array:LED D39
 U 1 1 511840AE
 P 6700 4400
 F 0 "D39" H 6700 4500 50  0000 C CNN
@@ -692,7 +661,7 @@ F 3 "" H 6700 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D40
+L led_array:LED D40
 U 1 1 511840AD
 P 7300 4400
 F 0 "D40" H 7300 4500 50  0000 C CNN
@@ -703,7 +672,7 @@ F 3 "" H 7300 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D38
+L led_array:LED D38
 U 1 1 511840AC
 P 6100 4400
 F 0 "D38" H 6100 4500 50  0000 C CNN
@@ -714,7 +683,7 @@ F 3 "" H 6100 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D37
+L led_array:LED D37
 U 1 1 511840AB
 P 5500 4400
 F 0 "D37" H 5500 4500 50  0000 C CNN
@@ -725,7 +694,7 @@ F 3 "" H 5500 4400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D45
+L led_array:LED D45
 U 1 1 511840AA
 P 5500 5100
 F 0 "D45" H 5500 5200 50  0000 C CNN
@@ -736,7 +705,7 @@ F 3 "" H 5500 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D46
+L led_array:LED D46
 U 1 1 511840A9
 P 6100 5100
 F 0 "D46" H 6100 5200 50  0000 C CNN
@@ -747,7 +716,7 @@ F 3 "" H 6100 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D48
+L led_array:LED D48
 U 1 1 511840A8
 P 7300 5100
 F 0 "D48" H 7300 5200 50  0000 C CNN
@@ -758,7 +727,7 @@ F 3 "" H 7300 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D47
+L led_array:LED D47
 U 1 1 511840A7
 P 6700 5100
 F 0 "D47" H 6700 5200 50  0000 C CNN
@@ -769,7 +738,7 @@ F 3 "" H 6700 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D43
+L led_array:LED D43
 U 1 1 511840A6
 P 4300 5100
 F 0 "D43" H 4300 5200 50  0000 C CNN
@@ -780,7 +749,7 @@ F 3 "" H 4300 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D44
+L led_array:LED D44
 U 1 1 511840A5
 P 4900 5100
 F 0 "D44" H 4900 5200 50  0000 C CNN
@@ -791,7 +760,7 @@ F 3 "" H 4900 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D42
+L led_array:LED D42
 U 1 1 511840A4
 P 3700 5100
 F 0 "D42" H 3700 5200 50  0000 C CNN
@@ -802,7 +771,7 @@ F 3 "" H 3700 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D41
+L led_array:LED D41
 U 1 1 511840A3
 P 3100 5100
 F 0 "D41" H 3100 5200 50  0000 C CNN
@@ -813,7 +782,7 @@ F 3 "" H 3100 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D57
+L led_array:LED D57
 U 1 1 511840A2
 P 3100 6500
 F 0 "D57" H 3100 6600 50  0000 C CNN
@@ -824,7 +793,7 @@ F 3 "" H 3100 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D58
+L led_array:LED D58
 U 1 1 511840A1
 P 3700 6500
 F 0 "D58" H 3700 6600 50  0000 C CNN
@@ -835,7 +804,7 @@ F 3 "" H 3700 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D60
+L led_array:LED D60
 U 1 1 511840A0
 P 4900 6500
 F 0 "D60" H 4900 6600 50  0000 C CNN
@@ -846,7 +815,7 @@ F 3 "" H 4900 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D59
+L led_array:LED D59
 U 1 1 5118409F
 P 4300 6500
 F 0 "D59" H 4300 6600 50  0000 C CNN
@@ -857,7 +826,7 @@ F 3 "" H 4300 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D63
+L led_array:LED D63
 U 1 1 5118409E
 P 6700 6500
 F 0 "D63" H 6700 6600 50  0000 C CNN
@@ -868,7 +837,7 @@ F 3 "" H 6700 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D64
+L led_array:LED D64
 U 1 1 5118409D
 P 7300 6500
 F 0 "D64" H 7300 6600 50  0000 C CNN
@@ -879,7 +848,7 @@ F 3 "" H 7300 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D62
+L led_array:LED D62
 U 1 1 5118409C
 P 6100 6500
 F 0 "D62" H 6100 6600 50  0000 C CNN
@@ -890,7 +859,7 @@ F 3 "" H 6100 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D61
+L led_array:LED D61
 U 1 1 5118409B
 P 5500 6500
 F 0 "D61" H 5500 6600 50  0000 C CNN
@@ -901,7 +870,7 @@ F 3 "" H 5500 6500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D53
+L led_array:LED D53
 U 1 1 5118409A
 P 5500 5800
 F 0 "D53" H 5500 5900 50  0000 C CNN
@@ -912,7 +881,7 @@ F 3 "" H 5500 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D54
+L led_array:LED D54
 U 1 1 51184099
 P 6100 5800
 F 0 "D54" H 6100 5900 50  0000 C CNN
@@ -923,7 +892,7 @@ F 3 "" H 6100 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D56
+L led_array:LED D56
 U 1 1 51184098
 P 7300 5800
 F 0 "D56" H 7300 5900 50  0000 C CNN
@@ -934,7 +903,7 @@ F 3 "" H 7300 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D55
+L led_array:LED D55
 U 1 1 51184097
 P 6700 5800
 F 0 "D55" H 6700 5900 50  0000 C CNN
@@ -945,7 +914,7 @@ F 3 "" H 6700 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D51
+L led_array:LED D51
 U 1 1 51184096
 P 4300 5800
 F 0 "D51" H 4300 5900 50  0000 C CNN
@@ -956,7 +925,7 @@ F 3 "" H 4300 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D52
+L led_array:LED D52
 U 1 1 51184095
 P 4900 5800
 F 0 "D52" H 4900 5900 50  0000 C CNN
@@ -967,7 +936,7 @@ F 3 "" H 4900 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D50
+L led_array:LED D50
 U 1 1 51184094
 P 3700 5800
 F 0 "D50" H 3700 5900 50  0000 C CNN
@@ -978,7 +947,7 @@ F 3 "" H 3700 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D49
+L led_array:LED D49
 U 1 1 51184093
 P 3100 5800
 F 0 "D49" H 3100 5900 50  0000 C CNN
@@ -989,7 +958,7 @@ F 3 "" H 3100 5800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D17
+L led_array:LED D17
 U 1 1 51184092
 P 3150 3000
 F 0 "D17" H 3150 3100 50  0000 C CNN
@@ -1000,7 +969,7 @@ F 3 "" H 3150 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D18
+L led_array:LED D18
 U 1 1 51184091
 P 3750 3000
 F 0 "D18" H 3750 3100 50  0000 C CNN
@@ -1011,7 +980,7 @@ F 3 "" H 3750 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D20
+L led_array:LED D20
 U 1 1 51184090
 P 4950 3000
 F 0 "D20" H 4950 3100 50  0000 C CNN
@@ -1022,7 +991,7 @@ F 3 "" H 4950 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D19
+L led_array:LED D19
 U 1 1 5118408F
 P 4350 3000
 F 0 "D19" H 4350 3100 50  0000 C CNN
@@ -1033,7 +1002,7 @@ F 3 "" H 4350 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D23
+L led_array:LED D23
 U 1 1 5118408E
 P 6750 3000
 F 0 "D23" H 6750 3100 50  0000 C CNN
@@ -1044,7 +1013,7 @@ F 3 "" H 6750 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D24
+L led_array:LED D24
 U 1 1 5118408D
 P 7350 3000
 F 0 "D24" H 7350 3100 50  0000 C CNN
@@ -1055,7 +1024,7 @@ F 3 "" H 7350 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D22
+L led_array:LED D22
 U 1 1 5118408C
 P 6150 3000
 F 0 "D22" H 6150 3100 50  0000 C CNN
@@ -1066,7 +1035,7 @@ F 3 "" H 6150 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D21
+L led_array:LED D21
 U 1 1 5118408B
 P 5550 3000
 F 0 "D21" H 5550 3100 50  0000 C CNN
@@ -1077,7 +1046,7 @@ F 3 "" H 5550 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D29
+L led_array:LED D29
 U 1 1 5118408A
 P 5550 3700
 F 0 "D29" H 5550 3800 50  0000 C CNN
@@ -1088,7 +1057,7 @@ F 3 "" H 5550 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D30
+L led_array:LED D30
 U 1 1 51184089
 P 6150 3700
 F 0 "D30" H 6150 3800 50  0000 C CNN
@@ -1099,7 +1068,7 @@ F 3 "" H 6150 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D32
+L led_array:LED D32
 U 1 1 51184088
 P 7350 3700
 F 0 "D32" H 7350 3800 50  0000 C CNN
@@ -1110,7 +1079,7 @@ F 3 "" H 7350 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D31
+L led_array:LED D31
 U 1 1 51184087
 P 6750 3700
 F 0 "D31" H 6750 3800 50  0000 C CNN
@@ -1121,7 +1090,7 @@ F 3 "" H 6750 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D27
+L led_array:LED D27
 U 1 1 51184086
 P 4350 3700
 F 0 "D27" H 4350 3800 50  0000 C CNN
@@ -1132,7 +1101,7 @@ F 3 "" H 4350 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D28
+L led_array:LED D28
 U 1 1 51184085
 P 4950 3700
 F 0 "D28" H 4950 3800 50  0000 C CNN
@@ -1143,7 +1112,7 @@ F 3 "" H 4950 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D26
+L led_array:LED D26
 U 1 1 51184084
 P 3750 3700
 F 0 "D26" H 3750 3800 50  0000 C CNN
@@ -1154,7 +1123,7 @@ F 3 "" H 3750 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D25
+L led_array:LED D25
 U 1 1 51184083
 P 3150 3700
 F 0 "D25" H 3150 3800 50  0000 C CNN
@@ -1165,7 +1134,7 @@ F 3 "" H 3150 3700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D9
+L led_array:LED D9
 U 1 1 51184081
 P 3150 2300
 F 0 "D9" H 3150 2400 50  0000 C CNN
@@ -1176,7 +1145,7 @@ F 3 "" H 3150 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D10
+L led_array:LED D10
 U 1 1 51184080
 P 3750 2300
 F 0 "D10" H 3750 2400 50  0000 C CNN
@@ -1187,7 +1156,7 @@ F 3 "" H 3750 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D12
+L led_array:LED D12
 U 1 1 5118407F
 P 4950 2300
 F 0 "D12" H 4950 2400 50  0000 C CNN
@@ -1198,7 +1167,7 @@ F 3 "" H 4950 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D11
+L led_array:LED D11
 U 1 1 5118407E
 P 4350 2300
 F 0 "D11" H 4350 2400 50  0000 C CNN
@@ -1209,7 +1178,7 @@ F 3 "" H 4350 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D15
+L led_array:LED D15
 U 1 1 5118407D
 P 6750 2300
 F 0 "D15" H 6750 2400 50  0000 C CNN
@@ -1220,7 +1189,7 @@ F 3 "" H 6750 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D16
+L led_array:LED D16
 U 1 1 5118407C
 P 7350 2300
 F 0 "D16" H 7350 2400 50  0000 C CNN
@@ -1231,7 +1200,7 @@ F 3 "" H 7350 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D14
+L led_array:LED D14
 U 1 1 5118407B
 P 6150 2300
 F 0 "D14" H 6150 2400 50  0000 C CNN
@@ -1242,7 +1211,7 @@ F 3 "" H 6150 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D13
+L led_array:LED D13
 U 1 1 5118407A
 P 5550 2300
 F 0 "D13" H 5550 2400 50  0000 C CNN
@@ -1253,7 +1222,7 @@ F 3 "" H 5550 2300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D5
+L led_array:LED D5
 U 1 1 51184040
 P 5550 1600
 F 0 "D5" H 5550 1700 50  0000 C CNN
@@ -1264,7 +1233,7 @@ F 3 "" H 5550 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D6
+L led_array:LED D6
 U 1 1 5118403F
 P 6150 1600
 F 0 "D6" H 6150 1700 50  0000 C CNN
@@ -1275,7 +1244,7 @@ F 3 "" H 6150 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D8
+L led_array:LED D8
 U 1 1 5118403E
 P 7350 1600
 F 0 "D8" H 7350 1700 50  0000 C CNN
@@ -1286,7 +1255,7 @@ F 3 "" H 7350 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D7
+L led_array:LED D7
 U 1 1 5118403D
 P 6750 1600
 F 0 "D7" H 6750 1700 50  0000 C CNN
@@ -1297,7 +1266,7 @@ F 3 "" H 6750 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D3
+L led_array:LED D3
 U 1 1 51184033
 P 4350 1600
 F 0 "D3" H 4350 1700 50  0000 C CNN
@@ -1308,7 +1277,7 @@ F 3 "" H 4350 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D4
+L led_array:LED D4
 U 1 1 51184032
 P 4950 1600
 F 0 "D4" H 4950 1700 50  0000 C CNN
@@ -1319,7 +1288,7 @@ F 3 "" H 4950 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D2
+L led_array:LED D2
 U 1 1 5118401C
 P 3750 1600
 F 0 "D2" H 3750 1700 50  0000 C CNN
@@ -1330,7 +1299,7 @@ F 3 "" H 3750 1600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L led_array:LED D1
 U 1 1 51184015
 P 3150 1600
 F 0 "D1" H 3150 1700 50  0000 C CNN
@@ -1373,7 +1342,7 @@ Text Label 8850 1300 0    60   ~ 0
 Text Label 8850 1200 0    60   ~ 0
 1
 $Comp
-L CONN_8 P2
+L led_array:CONN_8 P2
 U 1 1 51183ED1
 P 9500 2550
 F 0 "P2" V 9450 2550 60  0000 C CNN
@@ -1384,7 +1353,7 @@ F 3 "" H 9500 2550 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_8 P1
+L led_array:CONN_8 P1
 U 1 1 51183ECD
 P 9500 1550
 F 0 "P1" V 9450 1550 60  0000 C CNN
@@ -1396,4 +1365,228 @@ F 3 "" H 9500 1550 60  0001 C CNN
 $EndComp
 Text Notes 8150 3200 0    60   ~ 0
 MILL-MAX 350-10-164-00-106000 (Digikey ED24064-ND)
+Wire Wire Line
+	6700 6800 6100 6800
+Wire Wire Line
+	5500 6800 4900 6800
+Wire Wire Line
+	4300 6800 3700 6800
+Wire Wire Line
+	3100 6800 2750 6800
+Wire Wire Line
+	6700 6100 6100 6100
+Wire Wire Line
+	5500 6100 4900 6100
+Wire Wire Line
+	4900 6100 4300 6100
+Wire Wire Line
+	3700 6100 3100 6100
+Wire Wire Line
+	6100 5400 6700 5400
+Wire Wire Line
+	4900 5400 5500 5400
+Wire Wire Line
+	3700 5400 4300 5400
+Wire Wire Line
+	3100 5400 3700 5400
+Wire Wire Line
+	6700 4700 6100 4700
+Wire Wire Line
+	5500 4700 4900 4700
+Wire Wire Line
+	4300 4700 3700 4700
+Wire Wire Line
+	3100 4700 2750 4700
+Wire Wire Line
+	6150 4000 6750 4000
+Wire Wire Line
+	4950 4000 5550 4000
+Wire Wire Line
+	3750 4000 4350 4000
+Wire Wire Line
+	3150 4000 3750 4000
+Wire Wire Line
+	6150 3300 6750 3300
+Wire Wire Line
+	4950 3300 5550 3300
+Wire Wire Line
+	3750 3300 4350 3300
+Wire Wire Line
+	6750 2600 6150 2600
+Wire Wire Line
+	5550 2600 4950 2600
+Wire Wire Line
+	4350 2600 3750 2600
+Wire Wire Line
+	3150 2600 2750 2600
+Wire Wire Line
+	6150 1900 5550 1900
+Wire Wire Line
+	4950 1900 4350 1900
+Wire Wire Line
+	3750 1900 3150 1900
+Wire Wire Line
+	7650 4800 7650 5500
+Wire Wire Line
+	7650 3400 7650 4100
+Wire Wire Line
+	7650 2000 7650 2700
+Wire Wire Line
+	7050 5500 7050 4800
+Wire Wire Line
+	7050 4100 7050 3400
+Wire Wire Line
+	7050 2700 7050 2000
+Wire Wire Line
+	7050 1300 7050 1000
+Wire Wire Line
+	6450 5500 6450 4800
+Wire Wire Line
+	6450 4100 6450 3400
+Wire Wire Line
+	6450 2700 6450 2000
+Wire Wire Line
+	6450 1300 6450 1000
+Wire Wire Line
+	5850 5500 5850 4800
+Wire Wire Line
+	5850 4100 5850 3400
+Wire Wire Line
+	5850 2700 5850 2000
+Wire Wire Line
+	5850 1300 5850 1000
+Wire Wire Line
+	5250 5500 5250 4800
+Wire Wire Line
+	5250 4100 5250 3400
+Wire Wire Line
+	5250 2700 5250 2000
+Wire Wire Line
+	4650 4800 4650 5500
+Wire Wire Line
+	4650 3400 4650 4100
+Wire Wire Line
+	4650 2000 4650 2700
+Wire Wire Line
+	4050 5500 4050 4800
+Wire Wire Line
+	4050 4100 4050 3400
+Wire Wire Line
+	4050 2700 4050 2000
+Wire Wire Line
+	4050 1300 4050 1000
+Wire Wire Line
+	3450 4800 3450 5500
+Wire Wire Line
+	3450 3400 3450 4100
+Wire Wire Line
+	3450 2000 3450 2700
+Wire Wire Line
+	3450 1300 3450 2000
+Wire Wire Line
+	3450 2700 3450 3400
+Wire Wire Line
+	3450 4100 3450 4800
+Wire Wire Line
+	3450 5500 3450 6200
+Wire Wire Line
+	4050 2000 4050 1300
+Wire Wire Line
+	4050 3400 4050 2700
+Wire Wire Line
+	4050 4800 4050 4100
+Wire Wire Line
+	4650 1300 4650 2000
+Wire Wire Line
+	4650 2700 4650 3400
+Wire Wire Line
+	4650 4100 4650 4800
+Wire Wire Line
+	4650 5500 4650 6200
+Wire Wire Line
+	5250 1300 5250 1000
+Wire Wire Line
+	5250 2000 5250 1300
+Wire Wire Line
+	5250 3400 5250 2700
+Wire Wire Line
+	5250 4800 5250 4100
+Wire Wire Line
+	5850 2000 5850 1300
+Wire Wire Line
+	5850 3400 5850 2700
+Wire Wire Line
+	5850 4800 5850 4100
+Wire Wire Line
+	6450 2000 6450 1300
+Wire Wire Line
+	6450 3400 6450 2700
+Wire Wire Line
+	6450 4800 6450 4100
+Wire Wire Line
+	7050 2000 7050 1300
+Wire Wire Line
+	7050 3400 7050 2700
+Wire Wire Line
+	7050 4800 7050 4100
+Wire Wire Line
+	7650 1300 7650 2000
+Wire Wire Line
+	7650 2700 7650 3400
+Wire Wire Line
+	7650 4100 7650 4800
+Wire Wire Line
+	7650 5500 7650 6200
+Wire Wire Line
+	3150 1900 2750 1900
+Wire Wire Line
+	4350 1900 3750 1900
+Wire Wire Line
+	5550 1900 4950 1900
+Wire Wire Line
+	6750 1900 6150 1900
+Wire Wire Line
+	3750 2600 3150 2600
+Wire Wire Line
+	4950 2600 4350 2600
+Wire Wire Line
+	6150 2600 5550 2600
+Wire Wire Line
+	3150 3300 3750 3300
+Wire Wire Line
+	4350 3300 4950 3300
+Wire Wire Line
+	5550 3300 6150 3300
+Wire Wire Line
+	6750 3300 7350 3300
+Wire Wire Line
+	4350 4000 4950 4000
+Wire Wire Line
+	5550 4000 6150 4000
+Wire Wire Line
+	6750 4000 7350 4000
+Wire Wire Line
+	3700 4700 3100 4700
+Wire Wire Line
+	4900 4700 4300 4700
+Wire Wire Line
+	6100 4700 5500 4700
+Wire Wire Line
+	4300 5400 4900 5400
+Wire Wire Line
+	5500 5400 6100 5400
+Wire Wire Line
+	6700 5400 7300 5400
+Wire Wire Line
+	3100 6100 2750 6100
+Wire Wire Line
+	4300 6100 3700 6100
+Wire Wire Line
+	6100 6100 5500 6100
+Wire Wire Line
+	3700 6800 3100 6800
+Wire Wire Line
+	4900 6800 4300 6800
+Wire Wire Line
+	6100 6800 5500 6800
 $EndSCHEMATC
