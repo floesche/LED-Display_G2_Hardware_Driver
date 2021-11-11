@@ -27,6 +27,11 @@ The LED array SMD 1411-0805 is a LED matrix for surface mount devices with alter
 
 Historic production ready files are archived at `led_array_smd0805/production_v0`. The most recently produced version was `led_array_smd1411-0805_v0p2.zip`.
 
+## LED array template
+{:.clear}
+
+The project folder `led_array_template` contains a 8×8 schematic that can be used as a template to produce different types of PCBs.
+
 ## Project content
 {:.clear}
 
