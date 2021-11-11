@@ -606,7 +606,7 @@ Wire Wire Line
 	6700 6800 6700 6700
 Connection ~ 6100 6800
 $Comp
-L led_array:LED D33
+L led_array_th3mm:LED D33
 U 1 1 511840B2
 P 3100 4400
 F 0 "D33" H 3100 4500 50  0000 C CNN
@@ -617,7 +617,7 @@ F 3 "" H 3100 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D34
+L led_array_th3mm:LED D34
 U 1 1 511840B1
 P 3700 4400
 F 0 "D34" H 3700 4500 50  0000 C CNN
@@ -628,7 +628,7 @@ F 3 "" H 3700 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D36
+L led_array_th3mm:LED D36
 U 1 1 511840B0
 P 4900 4400
 F 0 "D36" H 4900 4500 50  0000 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 4900 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D35
+L led_array_th3mm:LED D35
 U 1 1 511840AF
 P 4300 4400
 F 0 "D35" H 4300 4500 50  0000 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 4300 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D39
+L led_array_th3mm:LED D39
 U 1 1 511840AE
 P 6700 4400
 F 0 "D39" H 6700 4500 50  0000 C CNN
@@ -661,7 +661,7 @@ F 3 "" H 6700 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D40
+L led_array_th3mm:LED D40
 U 1 1 511840AD
 P 7300 4400
 F 0 "D40" H 7300 4500 50  0000 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 7300 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D38
+L led_array_th3mm:LED D38
 U 1 1 511840AC
 P 6100 4400
 F 0 "D38" H 6100 4500 50  0000 C CNN
@@ -683,7 +683,7 @@ F 3 "" H 6100 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D37
+L led_array_th3mm:LED D37
 U 1 1 511840AB
 P 5500 4400
 F 0 "D37" H 5500 4500 50  0000 C CNN
@@ -694,7 +694,7 @@ F 3 "" H 5500 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D45
+L led_array_th3mm:LED D45
 U 1 1 511840AA
 P 5500 5100
 F 0 "D45" H 5500 5200 50  0000 C CNN
@@ -705,7 +705,7 @@ F 3 "" H 5500 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D46
+L led_array_th3mm:LED D46
 U 1 1 511840A9
 P 6100 5100
 F 0 "D46" H 6100 5200 50  0000 C CNN
@@ -716,7 +716,7 @@ F 3 "" H 6100 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D48
+L led_array_th3mm:LED D48
 U 1 1 511840A8
 P 7300 5100
 F 0 "D48" H 7300 5200 50  0000 C CNN
@@ -727,7 +727,7 @@ F 3 "" H 7300 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D47
+L led_array_th3mm:LED D47
 U 1 1 511840A7
 P 6700 5100
 F 0 "D47" H 6700 5200 50  0000 C CNN
@@ -738,7 +738,7 @@ F 3 "" H 6700 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D43
+L led_array_th3mm:LED D43
 U 1 1 511840A6
 P 4300 5100
 F 0 "D43" H 4300 5200 50  0000 C CNN
@@ -749,7 +749,7 @@ F 3 "" H 4300 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D44
+L led_array_th3mm:LED D44
 U 1 1 511840A5
 P 4900 5100
 F 0 "D44" H 4900 5200 50  0000 C CNN
@@ -760,7 +760,7 @@ F 3 "" H 4900 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D42
+L led_array_th3mm:LED D42
 U 1 1 511840A4
 P 3700 5100
 F 0 "D42" H 3700 5200 50  0000 C CNN
@@ -771,7 +771,7 @@ F 3 "" H 3700 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D41
+L led_array_th3mm:LED D41
 U 1 1 511840A3
 P 3100 5100
 F 0 "D41" H 3100 5200 50  0000 C CNN
@@ -782,7 +782,7 @@ F 3 "" H 3100 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D57
+L led_array_th3mm:LED D57
 U 1 1 511840A2
 P 3100 6500
 F 0 "D57" H 3100 6600 50  0000 C CNN
@@ -793,7 +793,7 @@ F 3 "" H 3100 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D58
+L led_array_th3mm:LED D58
 U 1 1 511840A1
 P 3700 6500
 F 0 "D58" H 3700 6600 50  0000 C CNN
@@ -804,7 +804,7 @@ F 3 "" H 3700 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D60
+L led_array_th3mm:LED D60
 U 1 1 511840A0
 P 4900 6500
 F 0 "D60" H 4900 6600 50  0000 C CNN
@@ -815,7 +815,7 @@ F 3 "" H 4900 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D59
+L led_array_th3mm:LED D59
 U 1 1 5118409F
 P 4300 6500
 F 0 "D59" H 4300 6600 50  0000 C CNN
@@ -826,7 +826,7 @@ F 3 "" H 4300 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D63
+L led_array_th3mm:LED D63
 U 1 1 5118409E
 P 6700 6500
 F 0 "D63" H 6700 6600 50  0000 C CNN
@@ -837,7 +837,7 @@ F 3 "" H 6700 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D64
+L led_array_th3mm:LED D64
 U 1 1 5118409D
 P 7300 6500
 F 0 "D64" H 7300 6600 50  0000 C CNN
@@ -848,7 +848,7 @@ F 3 "" H 7300 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D62
+L led_array_th3mm:LED D62
 U 1 1 5118409C
 P 6100 6500
 F 0 "D62" H 6100 6600 50  0000 C CNN
@@ -859,7 +859,7 @@ F 3 "" H 6100 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D61
+L led_array_th3mm:LED D61
 U 1 1 5118409B
 P 5500 6500
 F 0 "D61" H 5500 6600 50  0000 C CNN
@@ -870,7 +870,7 @@ F 3 "" H 5500 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D53
+L led_array_th3mm:LED D53
 U 1 1 5118409A
 P 5500 5800
 F 0 "D53" H 5500 5900 50  0000 C CNN
@@ -881,7 +881,7 @@ F 3 "" H 5500 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D54
+L led_array_th3mm:LED D54
 U 1 1 51184099
 P 6100 5800
 F 0 "D54" H 6100 5900 50  0000 C CNN
@@ -892,7 +892,7 @@ F 3 "" H 6100 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D56
+L led_array_th3mm:LED D56
 U 1 1 51184098
 P 7300 5800
 F 0 "D56" H 7300 5900 50  0000 C CNN
@@ -903,7 +903,7 @@ F 3 "" H 7300 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D55
+L led_array_th3mm:LED D55
 U 1 1 51184097
 P 6700 5800
 F 0 "D55" H 6700 5900 50  0000 C CNN
@@ -914,7 +914,7 @@ F 3 "" H 6700 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D51
+L led_array_th3mm:LED D51
 U 1 1 51184096
 P 4300 5800
 F 0 "D51" H 4300 5900 50  0000 C CNN
@@ -925,7 +925,7 @@ F 3 "" H 4300 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D52
+L led_array_th3mm:LED D52
 U 1 1 51184095
 P 4900 5800
 F 0 "D52" H 4900 5900 50  0000 C CNN
@@ -936,7 +936,7 @@ F 3 "" H 4900 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D50
+L led_array_th3mm:LED D50
 U 1 1 51184094
 P 3700 5800
 F 0 "D50" H 3700 5900 50  0000 C CNN
@@ -947,7 +947,7 @@ F 3 "" H 3700 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D49
+L led_array_th3mm:LED D49
 U 1 1 51184093
 P 3100 5800
 F 0 "D49" H 3100 5900 50  0000 C CNN
@@ -958,7 +958,7 @@ F 3 "" H 3100 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D17
+L led_array_th3mm:LED D17
 U 1 1 51184092
 P 3150 3000
 F 0 "D17" H 3150 3100 50  0000 C CNN
@@ -969,7 +969,7 @@ F 3 "" H 3150 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D18
+L led_array_th3mm:LED D18
 U 1 1 51184091
 P 3750 3000
 F 0 "D18" H 3750 3100 50  0000 C CNN
@@ -980,7 +980,7 @@ F 3 "" H 3750 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D20
+L led_array_th3mm:LED D20
 U 1 1 51184090
 P 4950 3000
 F 0 "D20" H 4950 3100 50  0000 C CNN
@@ -991,7 +991,7 @@ F 3 "" H 4950 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D19
+L led_array_th3mm:LED D19
 U 1 1 5118408F
 P 4350 3000
 F 0 "D19" H 4350 3100 50  0000 C CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 4350 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D23
+L led_array_th3mm:LED D23
 U 1 1 5118408E
 P 6750 3000
 F 0 "D23" H 6750 3100 50  0000 C CNN
@@ -1013,7 +1013,7 @@ F 3 "" H 6750 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D24
+L led_array_th3mm:LED D24
 U 1 1 5118408D
 P 7350 3000
 F 0 "D24" H 7350 3100 50  0000 C CNN
@@ -1024,7 +1024,7 @@ F 3 "" H 7350 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D22
+L led_array_th3mm:LED D22
 U 1 1 5118408C
 P 6150 3000
 F 0 "D22" H 6150 3100 50  0000 C CNN
@@ -1035,7 +1035,7 @@ F 3 "" H 6150 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D21
+L led_array_th3mm:LED D21
 U 1 1 5118408B
 P 5550 3000
 F 0 "D21" H 5550 3100 50  0000 C CNN
@@ -1046,7 +1046,7 @@ F 3 "" H 5550 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D29
+L led_array_th3mm:LED D29
 U 1 1 5118408A
 P 5550 3700
 F 0 "D29" H 5550 3800 50  0000 C CNN
@@ -1057,7 +1057,7 @@ F 3 "" H 5550 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D30
+L led_array_th3mm:LED D30
 U 1 1 51184089
 P 6150 3700
 F 0 "D30" H 6150 3800 50  0000 C CNN
@@ -1068,7 +1068,7 @@ F 3 "" H 6150 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D32
+L led_array_th3mm:LED D32
 U 1 1 51184088
 P 7350 3700
 F 0 "D32" H 7350 3800 50  0000 C CNN
@@ -1079,7 +1079,7 @@ F 3 "" H 7350 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D31
+L led_array_th3mm:LED D31
 U 1 1 51184087
 P 6750 3700
 F 0 "D31" H 6750 3800 50  0000 C CNN
@@ -1090,7 +1090,7 @@ F 3 "" H 6750 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D27
+L led_array_th3mm:LED D27
 U 1 1 51184086
 P 4350 3700
 F 0 "D27" H 4350 3800 50  0000 C CNN
@@ -1101,7 +1101,7 @@ F 3 "" H 4350 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D28
+L led_array_th3mm:LED D28
 U 1 1 51184085
 P 4950 3700
 F 0 "D28" H 4950 3800 50  0000 C CNN
@@ -1112,7 +1112,7 @@ F 3 "" H 4950 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D26
+L led_array_th3mm:LED D26
 U 1 1 51184084
 P 3750 3700
 F 0 "D26" H 3750 3800 50  0000 C CNN
@@ -1123,7 +1123,7 @@ F 3 "" H 3750 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D25
+L led_array_th3mm:LED D25
 U 1 1 51184083
 P 3150 3700
 F 0 "D25" H 3150 3800 50  0000 C CNN
@@ -1134,7 +1134,7 @@ F 3 "" H 3150 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D9
+L led_array_th3mm:LED D9
 U 1 1 51184081
 P 3150 2300
 F 0 "D9" H 3150 2400 50  0000 C CNN
@@ -1145,7 +1145,7 @@ F 3 "" H 3150 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D10
+L led_array_th3mm:LED D10
 U 1 1 51184080
 P 3750 2300
 F 0 "D10" H 3750 2400 50  0000 C CNN
@@ -1156,7 +1156,7 @@ F 3 "" H 3750 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D12
+L led_array_th3mm:LED D12
 U 1 1 5118407F
 P 4950 2300
 F 0 "D12" H 4950 2400 50  0000 C CNN
@@ -1167,7 +1167,7 @@ F 3 "" H 4950 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D11
+L led_array_th3mm:LED D11
 U 1 1 5118407E
 P 4350 2300
 F 0 "D11" H 4350 2400 50  0000 C CNN
@@ -1178,7 +1178,7 @@ F 3 "" H 4350 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D15
+L led_array_th3mm:LED D15
 U 1 1 5118407D
 P 6750 2300
 F 0 "D15" H 6750 2400 50  0000 C CNN
@@ -1189,7 +1189,7 @@ F 3 "" H 6750 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D16
+L led_array_th3mm:LED D16
 U 1 1 5118407C
 P 7350 2300
 F 0 "D16" H 7350 2400 50  0000 C CNN
@@ -1200,7 +1200,7 @@ F 3 "" H 7350 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D14
+L led_array_th3mm:LED D14
 U 1 1 5118407B
 P 6150 2300
 F 0 "D14" H 6150 2400 50  0000 C CNN
@@ -1211,7 +1211,7 @@ F 3 "" H 6150 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D13
+L led_array_th3mm:LED D13
 U 1 1 5118407A
 P 5550 2300
 F 0 "D13" H 5550 2400 50  0000 C CNN
@@ -1222,7 +1222,7 @@ F 3 "" H 5550 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D5
+L led_array_th3mm:LED D5
 U 1 1 51184040
 P 5550 1600
 F 0 "D5" H 5550 1700 50  0000 C CNN
@@ -1233,7 +1233,7 @@ F 3 "" H 5550 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D6
+L led_array_th3mm:LED D6
 U 1 1 5118403F
 P 6150 1600
 F 0 "D6" H 6150 1700 50  0000 C CNN
@@ -1244,7 +1244,7 @@ F 3 "" H 6150 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D8
+L led_array_th3mm:LED D8
 U 1 1 5118403E
 P 7350 1600
 F 0 "D8" H 7350 1700 50  0000 C CNN
@@ -1255,7 +1255,7 @@ F 3 "" H 7350 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D7
+L led_array_th3mm:LED D7
 U 1 1 5118403D
 P 6750 1600
 F 0 "D7" H 6750 1700 50  0000 C CNN
@@ -1266,7 +1266,7 @@ F 3 "" H 6750 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D3
+L led_array_th3mm:LED D3
 U 1 1 51184033
 P 4350 1600
 F 0 "D3" H 4350 1700 50  0000 C CNN
@@ -1277,7 +1277,7 @@ F 3 "" H 4350 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D4
+L led_array_th3mm:LED D4
 U 1 1 51184032
 P 4950 1600
 F 0 "D4" H 4950 1700 50  0000 C CNN
@@ -1288,7 +1288,7 @@ F 3 "" H 4950 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D2
+L led_array_th3mm:LED D2
 U 1 1 5118401C
 P 3750 1600
 F 0 "D2" H 3750 1700 50  0000 C CNN
@@ -1299,7 +1299,7 @@ F 3 "" H 3750 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L led_array:LED D1
+L led_array_th3mm:LED D1
 U 1 1 51184015
 P 3150 1600
 F 0 "D1" H 3150 1700 50  0000 C CNN
@@ -1342,7 +1342,7 @@ Text Label 8850 1300 0    60   ~ 0
 Text Label 8850 1200 0    60   ~ 0
 1
 $Comp
-L led_array:CONN_8 P2
+L led_array_th3mm:CONN_8 P2
 U 1 1 51183ED1
 P 9500 2550
 F 0 "P2" V 9450 2550 60  0000 C CNN
@@ -1353,7 +1353,7 @@ F 3 "" H 9500 2550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L led_array:CONN_8 P1
+L led_array_th3mm:CONN_8 P1
 U 1 1 51183ECD
 P 9500 1550
 F 0 "P1" V 9450 1550 60  0000 C CNN

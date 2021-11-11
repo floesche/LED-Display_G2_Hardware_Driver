@@ -7,6 +7,18 @@ parent: Generation 2
 
 Different pre-fabricated LED matrices are available, but their emitted light spectrum is not always well specified, might differ between production batches, and don't always align well with the sensitivity of a drosophila visual system. Around 2013 there was an effort to produce custom LED matrices for [Generation 2]({{site.baseurl}}/Generation%202/Arenas/docs/g2_system.html) and [Generation 3]({{site.baseurl}}/Generation%203/) display systems. The different versions listed below are plug-in replacements for pre-fabricated LED matrices and designed to be used with the [panel boards]({{site.baseurl}}/Generation%202/Panels/docs/).
 
+## LED array TH 3mm
+{:.clear}
+
+![LED array through hole 3mm](assets/led_array_th3mm_front.png){:.ifr .pop}
+![LED array through hole 3mm](assets/led_array_th3mm_back.png){:.ifr .pop .clear}
+
+The LED array TH 3mm is a LED matrix for through hole (TH) 3mm LEDs (have a [look at the schematics](assets/led_array_th3mm_schematic.pdf)). LEDs from many different manufacturers are available in this packages size.
+
+Historic production ready files are archived at `led_array_th3mm/production_v1/`, yet it is unclear if there was ever a PCB produced.
+
+The folder `led_array_th3mm/objects/` contains a vector graphic file, presumably used to laser cut a spacer to be used on top of the PCB (see [preview pdf](assets/led_array_th3mm_spacer.pdf)).
+
 ## LED array SMD 0805
 {:.clear}
 

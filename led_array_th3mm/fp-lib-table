@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name led_array_3mm)(type KiCad)(uri ${KIPRJMOD}/led_array_3mm.pretty)(options "")(descr ""))
+  (lib (name led_array_th3mm)(type KiCad)(uri ${KIPRJMOD}/led_array_th3mm.pretty)(options "")(descr ""))
 )

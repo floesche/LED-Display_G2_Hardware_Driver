@@ -1,4 +1,4 @@
-update=Thu 11 Nov 2021 12:22:12 PM EST
+update=Thu 11 Nov 2021 03:01:58 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=led_array.net
+LastNetListRead=led_array_th3mm.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -47,3 +47,13 @@ LibName12=LED-3MM-MOD
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
