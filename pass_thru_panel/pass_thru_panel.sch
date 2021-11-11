@@ -1,37 +1,7 @@
-EESchema Schematic File Version 2  date Wed 27 Feb 2013 12:50:20 PM PST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 43  0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -60,20 +30,24 @@ Wire Wire Line
 Wire Wire Line
 	2050 1850 2950 1850
 $Comp
-L CONN_8 P1
+L pass_thru_panel:CONN_8 P1
 U 1 1 512E7147
 P 1700 1600
 F 0 "P1" V 1650 1600 60  0000 C CNN
 F 1 "CONN_8" V 1750 1600 60  0000 C CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "" H 1700 1600 50  0001 C CNN
 	1    1700 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P2
+L pass_thru_panel:CONN_8 P2
 U 1 1 512E7142
 P 3300 1600
 F 0 "P2" V 3250 1600 60  0000 C CNN
 F 1 "CONN_8" V 3350 1600 60  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
 	1    3300 1600
 	1    0    0    -1  
 $EndComp

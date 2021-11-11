@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pass_thru_panel)(type Legacy)(uri ${KIPRJMOD}/pass_thru_panel.lib)(options "")(descr ""))
+)
