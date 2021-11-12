@@ -1,6 +1,7 @@
 ---
 title: LED matrix
 parent: Generation 2
+nav_order: 5
 ---
 
 # Custom LED matrix boards
