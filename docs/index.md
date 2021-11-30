@@ -12,7 +12,6 @@ Different pre-fabricated LED matrices are available, but their emitted light spe
 {:toc}
 
 ## LED array TH 3mm
-{:.clear}
 
 ![LED array through hole 3mm](assets/led_array_th3mm_front.png){:.ifr .pop}
 ![LED array through hole 3mm](assets/led_array_th3mm_back.png){:.ifr .pop .clear}
@@ -24,7 +23,6 @@ Historic production ready files are archived at `led_array_th3mm/production_v1/`
 The folder `led_array_th3mm/objects/` contains a vector graphic file, presumably used to laser cut a spacer to be used on top of the PCB (see [preview pdf](assets/led_array_th3mm_spacer.pdf)).
 
 ## LED array TH 5mm
-{:.clear}
 
 ![LED array through hole 5mm](assets/led_array_th5mm_front.png){:.ifr .pop}
 ![LED array through hole 5mm](assets/led_array_th5mm_back.png){:.ifr .pop .clear}
@@ -36,7 +34,6 @@ Historic production ready files are archived at `led_array_th5mm/production_v1/`
 The folder `led_array_th5mm/objects/` contains different vector graphic file, presumably used to laser cut masks for the LEDs (see [preview pdf](assets/mask_inner_5mm.pdf)).
 
 ## LED array SMD 0805
-{:.clear}
 
 ![LED array SMD 0805](assets/led_array_smd0805_front.png){:.ifr .pop}
 ![LED array SMD 0805](assets/led_array_smd0805_back.png){:.ifr .pop .clear}
@@ -46,7 +43,6 @@ The LED array SMD 0805 is a LED matrix for surface mount devices with a package 
 Historic production ready files are archived at `led_array_smd0805/production_v1/`, yet it is unclear if there was ever a PCB produced.
 
 ## LED array SMD 1411-0805
-{:.clear}
 
 ![LED array SMD 1411-0805](assets/led_array_smd1411-0805_front.png){:.ifr .pop}
 ![LED array SMD 1411-0805](assets/led_array_smd1411-0805_back.png){:.ifr .pop .clear}
@@ -56,12 +52,10 @@ The LED array SMD 1411-0805 is a LED matrix for surface mount devices with alter
 Historic production ready files are archived at `led_array_smd0805/production_v0`. The most recently produced version was `led_array_smd1411-0805_v0p2.zip`.
 
 ## LED array template
-{:.clear}
 
 The project folder `led_array_template` contains a 8×8 schematic that can be used as a template to produce different types of PCBs.
 
 ## Panel Adaptor
-{:.clear}
 
 ![Panel Adaptor Front](assets/panel_adaptor_front.png){:.ifr .pop}
 ![Panel Adaptor Back](assets/panel_adaptor_back.png){:.ifr .pop .clear}
@@ -69,7 +63,6 @@ The project folder `led_array_template` contains a 8×8 schematic that can be us
 The `panel_adaptor` is a small PCB that allows an adaptation between different matrix sized and the [panel board]({{site.baseurl}}/Generation%202/Panels/docs/).
 
 ## Panel pass-thru
-{:.clear}
 
 ![Panel pass-thru Front](assets/panel_pass-thru_front.png){:.ifr .pop}
 ![Panel pass-thru Back](assets/panel_pass-thru_back.png){:.ifr .pop .clear}
